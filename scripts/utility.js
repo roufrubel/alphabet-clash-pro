@@ -16,6 +16,12 @@ function setBackgroundColorById(elementId){
     element.classList.add('bg-orange-400');
 }
 
+// remove bg color by id
+function removeBackgroundColorById(elementId){
+    const element = document.getElementById(elementId);
+    element.classList.remove('bg-orange-400');
+}
+
 // get a random element
 function getARandomElement() {
 
